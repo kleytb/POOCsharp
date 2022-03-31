@@ -1,0 +1,15 @@
+C:\Users\Kley\source\repos\LerTxt\LerTxt\bin\Debug\net6.0\LerTxt.exe
+C:\Users\Kley\source\repos\LerTxt\LerTxt\bin\Debug\net6.0\LerTxt.deps.json
+C:\Users\Kley\source\repos\LerTxt\LerTxt\bin\Debug\net6.0\LerTxt.runtimeconfig.json
+C:\Users\Kley\source\repos\LerTxt\LerTxt\bin\Debug\net6.0\LerTxt.dll
+C:\Users\Kley\source\repos\LerTxt\LerTxt\bin\Debug\net6.0\LerTxt.pdb
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.csproj.AssemblyReference.cache
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.AssemblyInfoInputs.cache
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.AssemblyInfo.cs
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.csproj.CoreCompileInputs.cache
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.dll
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\refint\LerTxt.dll
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.pdb
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\LerTxt.genruntimeconfig.cache
+C:\Users\Kley\source\repos\LerTxt\LerTxt\obj\Debug\net6.0\ref\LerTxt.dll
