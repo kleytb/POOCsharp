@@ -7,8 +7,7 @@ namespace RefatorarPOO
         static void Main(string[] args)
         {
             Reader.Read();
+            
         }
-
-
     }
 }

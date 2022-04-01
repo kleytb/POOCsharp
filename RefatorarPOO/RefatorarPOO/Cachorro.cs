@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RefatorarPOO
 {
-    internal class Cachorro : Animal
+    internal class Cachorro : Animal //Classe cachorro herda os paramêtros da classe animal
     {
     }
 }
