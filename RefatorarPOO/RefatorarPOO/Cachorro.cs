@@ -8,5 +8,13 @@ namespace RefatorarPOO
 {
     internal class Cachorro : Animal //Classe cachorro herda os paramêtros da classe animal
     {
+        public static bool Validation(int Idade)
+        {
+            if (Idade <= 100)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
