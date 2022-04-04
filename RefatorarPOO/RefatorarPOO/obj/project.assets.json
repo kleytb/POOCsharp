@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kley\\source\\repos\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
+      "projectUniqueName": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
       "projectName": "RefatorarPOO",
-      "projectPath": "C:\\Users\\Kley\\source\\repos\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
+      "projectPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
       "packagesPath": "C:\\Users\\Kley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kley\\source\\repos\\RefatorarPOO\\RefatorarPOO\\obj\\",
+      "outputPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kley\\AppData\\Roaming\\NuGet\\NuGet.Config",

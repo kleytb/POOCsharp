@@ -10,6 +10,7 @@ namespace RefatorarPOO
     {
         public static void Read()
         {
+            int arraySize = 3; // Tamanho padrão do array definido pelas regras de negócio
             var path = new StreamReader(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
             var listaGato = new List<Gato>(); //Cria uma lista com objetos do tipo Gato
             var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro           
@@ -20,7 +21,7 @@ namespace RefatorarPOO
                 if (pathLine == null)
                     continue;
                 String[] line = pathLine.Split("|"); //Transforma a string pahtLine em um vetor
-                if (line.Length < 3 || line.Length > 3) //Validação do tamanho padrão do array
+                if (line.Length != arraySize) //Validação do tamanho padrão do array
                     continue;
                 if (line[0].ToLower() == "gato")
                 {                    
