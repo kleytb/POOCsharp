@@ -28,7 +28,7 @@ namespace RefatorarPOO
                     var Gato = new Gato(); //Para cada objeto do tipo Gato, ele criar um novo objeto do tipo gato
                     Gato.Raca = line[1];
                     Gato.Idade = int.Parse(line[2]);
-                    if (Gato.Validation(int.Parse(line[2])))
+                    if (Gato.Validation(Gato.Idade))
                         listaGato.Add(Gato);
                 }
                 else if (line[0].ToLower() == "cachorro")
@@ -36,7 +36,7 @@ namespace RefatorarPOO
                     var Cachorro = new Cachorro(); //Para cada objeto do tipo Cachorro, ele criar um novo objeto do tipo cachorro
                     Cachorro.Raca = line[1];
                     Cachorro.Idade = int.Parse(line[2]);
-                    if (Cachorro.Validation(int.Parse(line[2])))
+                    if (Cachorro.Validation(Cachorro.Idade))
                         listaCachorro.Add(Cachorro);
                 }                
             }           
