@@ -7,14 +7,19 @@ using System.Threading.Tasks;
 namespace RefatorarPOO
 {
     internal class Gato : Animal //Classe gato herda os paramêtros da classe animal
-    {
-        public static bool Validation(int Idade)
+    { 
+        public Gato(string raca, float idade)
+        {        
+             Raca = raca;
+             Idade = idade;    
+        } 
+        public bool Valido()
         {
-            if (Idade <= 5)
-            {
-                return true;
-            }
-            return false;
+            if (Idade > 5)
+                return false;
+            if (string.IsNullOrEmpty(Raca))
+                return false;
+            return true;
         }
     }
 }

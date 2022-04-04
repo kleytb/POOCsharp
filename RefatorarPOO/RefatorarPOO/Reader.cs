@@ -11,10 +11,11 @@ namespace RefatorarPOO
     {
         public static void Read()
         {
+            
             int arraySize = 3; // Tamanho padrão do array definido pelas regras de negócio
             var path = new StreamReader(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
             var listaGato = new List<Gato>(); //Cria uma lista com objetos do tipo Gato
-            var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro           
+            var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro   
 
             while (!path.EndOfStream)
             {                
@@ -25,26 +26,20 @@ namespace RefatorarPOO
                 if (line.Length != arraySize) //Validação do tamanho padrão do array
                     continue;
                 if (line[0].ToLower() == "gato")
-                {                    
-                    var Gato = new Gato(); //Para cada objeto do tipo Gato, ele criar um novo objeto do tipo gato
-                    Gato.Raca = line[1];
-                    var num = line[2].Replace(",", ".");
-                    float.Parse(num, CultureInfo.InvariantCulture.NumberFormat);
-                    Gato.Idade = int.Parse(num);
-                    if (Gato.Validation(Gato.Idade))
+                {                   
+                    float y = float.Parse(line[2].Replace(",", "."), CultureInfo.InvariantCulture.NumberFormat);     // Conversão da idade de string para Float               
+                    var Gato = new Gato(line[1], y); //Para cada objeto do tipo Gato, ele criar um novo objeto do tipo gato
+                    if(Gato.Valido())
                         listaGato.Add(Gato);
                 }
                 else if (line[0].ToLower() == "cachorro")
-                {
-                    var Cachorro = new Cachorro(); //Para cada objeto do tipo Cachorro, ele criar um novo objeto do tipo cachorro
-                    Cachorro.Raca = line[1];
-                    var num = line[2].Replace(",", ".");
-                    float.Parse(num, CultureInfo.InvariantCulture.NumberFormat);
-                    Cachorro.Idade = int.Parse(num);
-                    if (Cachorro.Validation(Cachorro.Idade))
+                {                    
+                    float y = float.Parse(line[2].Replace(",", "."), CultureInfo.InvariantCulture.NumberFormat); // Conversão da idade de string para Float
+                    var Cachorro = new Cachorro(line[1], y); //Para cada objeto do tipo Gato, ele criar um novo objeto do tipo gato
+                    if(Cachorro.Valido())
                         listaCachorro.Add(Cachorro);
-                }                
-            }           
+                }              
+            }  
             Console.WriteLine(String.Format("A quantidade de gatos importados é: {0}", listaGato.Count()));
             Console.WriteLine(String.Format("A quantidade de cachorros importados é: {0}", listaCachorro.Count()));
         }      

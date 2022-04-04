@@ -9,6 +9,6 @@ namespace RefatorarPOO
     internal class Animal
     {
         public string Raca { get; set; } = String.Empty;
-        public int Idade { get; set; }
+        public float Idade { get; set; }
     }
 }
