@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,7 +28,9 @@ namespace RefatorarPOO
                 {                    
                     var Gato = new Gato(); //Para cada objeto do tipo Gato, ele criar um novo objeto do tipo gato
                     Gato.Raca = line[1];
-                    Gato.Idade = int.Parse(line[2]);
+                    var num = line[2].Replace(",", ".");
+                    float.Parse(num, CultureInfo.InvariantCulture.NumberFormat);
+                    Gato.Idade = int.Parse(num);
                     if (Gato.Validation(Gato.Idade))
                         listaGato.Add(Gato);
                 }
@@ -35,7 +38,9 @@ namespace RefatorarPOO
                 {
                     var Cachorro = new Cachorro(); //Para cada objeto do tipo Cachorro, ele criar um novo objeto do tipo cachorro
                     Cachorro.Raca = line[1];
-                    Cachorro.Idade = int.Parse(line[2]);
+                    var num = line[2].Replace(",", ".");
+                    float.Parse(num, CultureInfo.InvariantCulture.NumberFormat);
+                    Cachorro.Idade = int.Parse(num);
                     if (Cachorro.Validation(Cachorro.Idade))
                         listaCachorro.Add(Cachorro);
                 }                
