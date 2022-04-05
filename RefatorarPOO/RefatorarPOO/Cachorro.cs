@@ -11,16 +11,12 @@ namespace RefatorarPOO
         
         public Cachorro(string raca, float idade)
         {
-            if (idade <= 100)
-            {
-                Raca = raca;
-                Idade = idade;
-                
-            }          
+            Raca = raca;
+            Idade = idade;
         }
         public bool Valido()
         {
-            if (Idade > 5)
+            if (Idade > 100)
                 return false;
             if (string.IsNullOrEmpty(Raca))
                 return false;
