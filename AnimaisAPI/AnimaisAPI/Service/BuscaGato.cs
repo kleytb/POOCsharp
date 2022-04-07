@@ -31,7 +31,8 @@ namespace AnimaisAPI.Service
 
                     continue;
                 }
-                }
+               
+            }
                 return listaGato.ToList();
             }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kley\\source\\repos\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj": {}
+    "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kley\\source\\repos\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj": {
+    "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kley\\source\\repos\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
         "projectName": "AnimaisAPI",
-        "projectPath": "C:\\Users\\Kley\\source\\repos\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+        "projectPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
         "packagesPath": "C:\\Users\\Kley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kley\\source\\repos\\AnimaisAPI\\AnimaisAPI\\obj\\",
+        "outputPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kley\\AppData\\Roaming\\NuGet\\NuGet.Config",

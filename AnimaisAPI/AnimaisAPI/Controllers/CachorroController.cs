@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AnimaisAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Animais/[controller]")]
     [ApiController]
     public class CachorroController : ControllerBase
     {
@@ -14,7 +14,7 @@ namespace AnimaisAPI.Controllers
         }
 
         [HttpGet(Name = "Cachorros")]
-        public List<Cachorro> Animais()
+        public List<Cachorro> Cachorros()
         {
             BuscaCachorro xpto = new BuscaCachorro();
             return xpto.Busca().ToList();

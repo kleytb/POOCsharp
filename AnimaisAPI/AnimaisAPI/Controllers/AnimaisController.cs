@@ -5,18 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AnimaisAPI.Controllers
 {
-    [Route("api/Animais/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
-    public class GatosController : ControllerBase
+    public class AnimaisController : ControllerBase
     {
-        public GatosController()
+        public AnimaisController()
         {
         }
 
-        [HttpGet(Name = "Gatos")]
-        public List<Gato> Gatos()
+        [HttpGet(Name = "Animais")]
+        public List<Animal> Animais()
         {
-            BuscaGato xpto = new BuscaGato();
+            BuscaAnimais xpto = new BuscaAnimais();
             return xpto.Busca().ToList();
         }
     }
