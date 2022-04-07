@@ -2,8 +2,8 @@
 {
     public class Animal
     {
-        public string Raca { get; set; } = String.Empty;
+        public string Raca { get; set; } 
         public float Idade { get; set; }
-        public string Especie { get; set; } = String.Empty;
+        
     }
 }

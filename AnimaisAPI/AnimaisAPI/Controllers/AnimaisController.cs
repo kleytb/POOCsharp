@@ -13,10 +13,23 @@ namespace AnimaisAPI.Controllers
         {
         }
 
-        [HttpGet(Name = "Animais")]
-        public List<Animal> Animais()
+        [HttpGet("Animais", Name = "Animais")]
+        public RetornoAnimais Todos ()
         {
-            BuscaAnimais xpto = new BuscaAnimais();
+            RetornoAnimais retornoAnimais = new RetornoAnimais();
+            return retornoAnimais.Busca();
+        }    
+
+        [HttpGet("Gatos", Name ="Gatos")]
+        public List<Gato> Gatos ()
+        {
+            BuscaGato xpto = new BuscaGato();
+            return xpto.Busca().ToList();
+        }
+        [HttpGet("Cachorros", Name = "Cachorro")]
+        public List<Cachorro> Cachorros()
+        {
+            BuscaCachorro xpto = new BuscaCachorro();
             return xpto.Busca().ToList();
         }
     }
