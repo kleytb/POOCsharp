@@ -6,15 +6,11 @@ namespace AnimaisAPI.Service
     {
         public List<Animal> Busca()
         {
-            var listaAnimais = new List<Animal>();              
-            var animal = new Animal();
+            var listaAnimais = new List<Animal>(); 
             var buscaCachorro = new BuscaCachorro();
             var buscaGato = new BuscaGato();
-            
-            listaAnimais.Add(animal);
-            
-            
-
+            listaAnimais.AddRange(buscaCachorro.Busca());
+            listaAnimais.AddRange(buscaGato.Busca());
             return listaAnimais.ToList();
         }
     }
