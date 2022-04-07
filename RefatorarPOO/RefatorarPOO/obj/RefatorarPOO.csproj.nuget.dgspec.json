@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj": {}
+    "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj": {
+    "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
+        "projectUniqueName": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
         "projectName": "RefatorarPOO",
-        "projectPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
-        "packagesPath": "C:\\Users\\Kley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\obj\\",
+        "projectPath": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\RefatorarPOO.csproj",
+        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\RefatorarPOO\\RefatorarPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
