@@ -6,6 +6,7 @@
         {
             Raca = raca;
             Idade = idade;
+            Especie = "Cachorro";
         }
         public bool Valido()
         {
