@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+s19vNK9a4LZvPnQ4dVXAroP93Cs/Uh99eIRIaHHJpa/dyDIXVj4o6d69je3dHwX344IclY83azr2pp2CVjdng==",
+  "dgSpecHash": "TPqr4OYcKwY/dgElOOXkWVtaGgbzHWt7ftrNXQNFxAgdyKnWsWE3WPKhx8uUl4XD3OO9xwsS0nOAcDxOgrpqsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\domin\\Source\\repos\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+  "projectFilePath": "C:\\Users\\domin\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

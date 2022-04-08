@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+      "projectUniqueName": "C:\\Users\\domin\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
       "projectName": "AnimaisAPI",
-      "projectPath": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+      "projectPath": "C:\\Users\\domin\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
       "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\domin\\Source\\Repos\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\obj\\",
+      "outputPath": "C:\\Users\\domin\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
