@@ -8,7 +8,7 @@ namespace AnimaisAPI.Service
         public List<Gato> Busca()
         {
             int arraySize = 3; // Tamanho padrão do array definido pelas regras de negócio
-            var path = new StreamReader(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
+            var path = new StreamReader(@"C:\Users\domin\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
             var listaGato = new List<Gato>(); //Cria uma lista com objetos do tipo Gato
             var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro               
 
