@@ -10,8 +10,6 @@ namespace AnimaisAPI.Service
             int arraySize = 3; // Tamanho padrão do array definido pelas regras de negócio
             var path = new StreamReader(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
             var listaGato = new List<Gato>(); //Cria uma lista com objetos do tipo Gato
-                       
-
             while (!path.EndOfStream)
             {
                 var pathLine = path.ReadLine();
@@ -28,14 +26,11 @@ namespace AnimaisAPI.Service
                         if (Gato.Valido())
                             listaGato.Add(Gato);
                     }
-
                     continue;
                 }
-               
             }
             return listaGato.ToList();
             }
         }
-
     }
 

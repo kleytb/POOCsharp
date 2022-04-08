@@ -2,14 +2,14 @@
 
 namespace AnimaisAPI.Service
 {
-    public class CreateCachorro
+    public class CreateGato
     {
-        public static Cachorro Create(Cachorro cachorro)
+        public static Gato Create(Gato gato)
         {
             StreamWriter writer = File.AppendText(@"C:\Users\Kley\Desktop\LEITURABICHO.txt");
-            writer.WriteLine(cachorro.Especie + "|" + cachorro.Raca + "|" + cachorro.Idade);
+            writer.WriteLine(gato.Especie + "|" + gato.Raca + "|" + gato.Idade);
             writer.Close();
-            return cachorro;
+            return gato;
         }   
     }
 }
