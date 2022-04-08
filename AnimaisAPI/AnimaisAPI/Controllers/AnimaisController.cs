@@ -32,5 +32,15 @@ namespace AnimaisAPI.Controllers
             BuscaCachorro xpto = new BuscaCachorro();
             return xpto.Busca().ToList();
         }
+
+        [HttpPost("CreatecCachorro", Name = "CreateCachorro")]
+
+        public List<Cachorro> Post(Cachorro cachorro)
+        {
+            List<Cachorro> listaCachorros = new List<Cachorro>();
+            cachorro.Idade = cachorro.Idade + 10;
+            listaCachorros.Add(cachorro);
+            return listaCachorros;            
+        }
     }
 }
