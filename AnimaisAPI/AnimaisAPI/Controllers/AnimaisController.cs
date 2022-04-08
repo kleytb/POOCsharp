@@ -2,6 +2,7 @@
 using AnimaisAPI.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 
 namespace AnimaisAPI.Controllers
 {
@@ -33,14 +34,14 @@ namespace AnimaisAPI.Controllers
             return xpto.Busca().ToList();
         }
 
-        [HttpPost("CreatecCachorro", Name = "CreateCachorro")]
+        [HttpPost("CreatecGato", Name = "CreateGato")]
 
-        public List<Cachorro> Post(Cachorro cachorro)
+        public List<Gato> Post(Gato gato)
         {
-            List<Cachorro> listaCachorros = new List<Cachorro>();
-            cachorro.Idade = cachorro.Idade + 10;
-            listaCachorros.Add(cachorro);
-            return listaCachorros;            
+            List<Gato> listaGatos = new List<Gato>();
+            gato.Idade = gato.Idade + 10;
+            listaGatos.Add(gato);
+            return listaGatos;
         }
     }
 }
