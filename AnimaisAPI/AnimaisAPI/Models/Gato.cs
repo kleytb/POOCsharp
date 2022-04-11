@@ -8,7 +8,7 @@
             Idade = idade;
             Especie = "GATO";
         }
-        public bool Valido()
+        public bool IsValid()
         {
             if (Idade > 5)
                 return false;

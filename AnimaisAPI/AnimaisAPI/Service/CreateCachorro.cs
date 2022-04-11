@@ -1,8 +1,9 @@
-﻿using AnimaisAPI.Models;
+﻿
+using AnimaisAPI.Models;
 
 namespace AnimaisAPI.Service
 {
-    public class CreateCachorro
+    public class CreateCachorro 
     {
         public static void Create(Cachorro cachorro)
         {

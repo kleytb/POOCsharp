@@ -1,6 +1,6 @@
 ﻿using AnimaisAPI.Models;
 using AnimaisAPI.Service;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimaisAPI.Controllers
@@ -23,8 +23,8 @@ namespace AnimaisAPI.Controllers
         [HttpGet("Gatos", Name ="Gatos")]
         public List<Gato> Gatos ()
         {
-            BuscaGato xpto = new BuscaGato();
-            return xpto.Busca().ToList();
+            BuscaGato buscaGato = new BuscaGato();
+            return buscaGato.Busca().ToList();
         }
         [HttpGet("Cachorros", Name = "Cachorro")]
         public List<Cachorro> Cachorros()

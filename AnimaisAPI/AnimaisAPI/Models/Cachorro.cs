@@ -7,9 +7,8 @@
             Raca = raca;
             Idade = idade;
             Especie = "CACHORRO";
-            
         }
-        public bool Valido()
+        public bool IsValid()
         {
             if (Idade > 100)
                 return false;

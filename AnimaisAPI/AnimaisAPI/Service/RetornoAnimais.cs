@@ -4,8 +4,8 @@ namespace AnimaisAPI.Models
 {
     public class RetornoAnimais
     {
-        public List<Cachorro> cachorros { get; set; }
-        public List<Gato> gatos { get; set; }
+        public List<Cachorro>? cachorros { get; set; }
+        public List<Gato>? gatos { get; set; }
 
         public RetornoAnimais Busca()
         {
