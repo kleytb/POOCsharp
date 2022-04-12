@@ -2,8 +2,8 @@
 
 namespace AnimaisAPI.Interfaces
 {
-    public interface IRetornoAnimais
+    public interface IListGato
     {
-        public RetornoAnimais Busca();
+        public List<Gato> ListaGato();
     }
 }

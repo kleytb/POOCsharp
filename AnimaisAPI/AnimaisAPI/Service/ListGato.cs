@@ -3,11 +3,11 @@ using AnimaisAPI.Models;
 
 namespace AnimaisAPI.Service
 {
-    public class BuscaGato : IBuscaGato
+    public class ListGato : IListGato
     {
-        public List<Gato> Busca()
+        public List<Gato> ListaGato()
         {
-            var allLines = File.ReadAllLines(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); 
+            var allLines = TxtSearch.Search();
             var listaGato = new List<Gato>(); 
             foreach(var line in allLines)
             {

@@ -3,11 +3,11 @@ using AnimaisAPI.Models;
 
 namespace AnimaisAPI.Service
 {
-    public class BuscaCachorro : IBuscaCachorro
+    public class ListCachorro : IListCachorro
     {
-        public  List<Cachorro> Busca()
+        public  List<Cachorro> ListaCachorro()
         {
-            var allLines = File.ReadAllLines(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina            
+            var allLines = TxtSearch.Search();         
             var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro 
             foreach (var line in allLines)
             {
