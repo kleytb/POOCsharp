@@ -20,25 +20,25 @@ namespace AnimaisAPI.Controllers
         [HttpGet("Gatos", Name ="Gatos")]
         public List<Gato> Gatos ()
         {
-            ListGato buscaGato = new ListGato();
-            return buscaGato.ListaGato().ToList();
+            ListGato listaGato = new ListGato();
+            return listaGato.ListaGato().ToList();
         }
         [HttpGet("Cachorros", Name = "Cachorro")]
         public List<Cachorro> Cachorros()
         {
-            ListCachorro xpto = new ListCachorro();
-            return xpto.ListaCachorro().ToList();
+            ListCachorro listaCachorro = new ListCachorro();
+            return listaCachorro.ListaCachorro().ToList();
         }
         [HttpPost("CreateGato", Name = "CreateGato")]
         public Gato Post(Gato gato)
         {
-            AddGato.Create(gato);
+            AddGato.AddGatos(gato);
             return gato;
         }
         [HttpPost("CreateCachorro", Name = "CreateCachorro")]
         public Cachorro Post(Cachorro cachorro)
         {
-            AddCachorro.Create(cachorro);
+            AddCachorro.AddCachorros(cachorro);
             return cachorro;
         }
     }

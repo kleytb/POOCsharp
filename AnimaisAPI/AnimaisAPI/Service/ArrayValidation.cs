@@ -10,8 +10,6 @@
             String[] array = line.Split("|");
             if (array.Length != arraySize)
                 return null;
-            if (array[1] == null)
-                return null;
             if (!float.TryParse(array[2], out float idade))
                 return null;
             return array;

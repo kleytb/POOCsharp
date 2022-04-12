@@ -2,7 +2,7 @@
 {
     public class Cachorro : Animal
     {
-        public Cachorro(string raca, float idade)
+        public Cachorro(string raca, string idade)
         {
             Raca = raca;
             Idade = idade;
@@ -18,5 +18,7 @@
                 return false;
             return true;
         }
+
+        //string conexaoBanco = @"Server=B2C-SPMP-10\SQLEXPRESS;Database=Exemplo;Integrated Security=SSPI";
     }
 }
