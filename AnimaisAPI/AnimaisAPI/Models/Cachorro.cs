@@ -2,7 +2,7 @@
 {
     public class Cachorro : Animal
     {
-        public Cachorro(string raca, string idade)
+        public Cachorro(string raca, float idade)
         {
             Raca = raca;
             Idade = idade;

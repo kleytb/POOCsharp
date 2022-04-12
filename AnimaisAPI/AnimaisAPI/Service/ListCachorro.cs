@@ -8,7 +8,7 @@ namespace AnimaisAPI.Service
         public  List<Cachorro> ListaCachorro()
         {
             var allLines = TxtSearch.Search();         
-            var listaCachorro = new List<Cachorro>(); // Crua uma lista com objetos Cachorro 
+            var listaCachorro = new List<Cachorro>(); 
             foreach (var line in allLines)
             {
                var cachorro = CachorroParse.CreateFromLine(line);

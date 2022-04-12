@@ -12,7 +12,7 @@ namespace AnimaisAPI.Service
                 var isValidDog = Cachorro.IsValidDog(float.Parse(array[2]), array[1], array[0]);
                 if(!isValidDog)
                     return null;
-                var cachorro = new Cachorro(array[1], array[2]);
+                var cachorro = new Cachorro(array[1], float.Parse(array[2]));
                 return cachorro;
             }
             return null;
