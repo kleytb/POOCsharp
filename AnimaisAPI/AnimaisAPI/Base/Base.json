@@ -1,0 +1,22 @@
+{
+    "cachorros": [
+      {
+        "raca": "PASTOR",
+        "idade": 10
+      },
+      {
+        "raca": "CARAMELO",
+        "idade": 90
+      }
+    ],
+    "gatos": [
+      {
+        "raca": "KUIOYTR",
+        "idade": 5
+      },
+      {
+        "raca": "6767",
+        "idade": 3
+      }    
+    ]
+}
