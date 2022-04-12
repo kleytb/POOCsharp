@@ -1,6 +1,5 @@
 ﻿using AnimaisAPI.Models;
 using AnimaisAPI.Service;
-
 using Microsoft.AspNetCore.Mvc;
 
 namespace AnimaisAPI.Controllers
@@ -37,7 +36,7 @@ namespace AnimaisAPI.Controllers
 
         public Gato Post(Gato gato)
         {
-            CreateGato.Create(gato);
+            AddGato.Create(gato);
             return gato;
         }
 
@@ -45,7 +44,7 @@ namespace AnimaisAPI.Controllers
 
         public Cachorro Post(Cachorro cachorro)
         {
-            CreateCachorro.Create(cachorro);
+            AddCachorro.Create(cachorro);
             return cachorro;
         }
     }

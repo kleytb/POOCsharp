@@ -2,7 +2,7 @@
 
 namespace AnimaisAPI.Service
 {
-    public class CreateGato
+    public class AddGato
     {
         public static void Create(Gato gato)
         {

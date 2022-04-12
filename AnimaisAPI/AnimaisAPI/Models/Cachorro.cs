@@ -2,20 +2,21 @@
 {
     public class Cachorro : Animal
     {
-        public Cachorro(string raca, float idade)
+        public Cachorro(string raca, string idade)
         {
             Raca = raca;
             Idade = idade;
             Especie = "CACHORRO";
         }
-        public bool IsValid()
+        public static bool IsValidDog(float idade, string raca, string especie)
         {
-            if (Idade > 100)
+            if (idade > 100)
                 return false;
-            if (string.IsNullOrEmpty(Raca))
+            if (string.IsNullOrEmpty(raca))
+                return false;
+            if(especie.ToLower().Trim() != "cachorro")
                 return false;
             return true;
         }
-
     }
 }

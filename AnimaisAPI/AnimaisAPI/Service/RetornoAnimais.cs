@@ -1,8 +1,9 @@
-﻿using AnimaisAPI.Service;
+﻿using AnimaisAPI.Interfaces;
+using AnimaisAPI.Service;
 
 namespace AnimaisAPI.Models
 {
-    public class RetornoAnimais
+    public class RetornoAnimais : IRetornoAnimais
     {
         public List<Cachorro>? cachorros { get; set; }
         public List<Gato>? gatos { get; set; }

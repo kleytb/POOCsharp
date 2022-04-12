@@ -2,21 +2,22 @@
 {
     public class Gato : Animal
     {
-        public Gato(string raca, float idade)
+        public Gato(string raca, string idade)
         {
             Raca = raca;
             Idade = idade;
             Especie = "GATO";
         }
-        public bool IsValid()
+        public static bool IsValidCat(float idade, string raca, string especie)
         {
-            if (Idade > 5)
+            if (idade > 5)
                 return false;
-            if (string.IsNullOrEmpty(Raca))
+            if (string.IsNullOrEmpty(raca))
+                return false;
+            if (especie.ToLower().Trim() != "gato")
                 return false;
             return true;
         }
     }
-
 }
 

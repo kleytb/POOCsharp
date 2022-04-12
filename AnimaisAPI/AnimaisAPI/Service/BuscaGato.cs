@@ -7,11 +7,11 @@ namespace AnimaisAPI.Service
     {
         public List<Gato> Busca()
         {
-            var path = File.ReadAllLines(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); //Colocar aqui o caminho para busca do TXT, pode variar de máquina pra máquina
-            var listaGato = new List<Gato>(); //Cria uma lista com objetos do tipo Gato
-            foreach(var pathLine in path)
+            var allLines = File.ReadAllLines(@"C:\Users\Kley\Desktop\LEITURABICHO.txt"); 
+            var listaGato = new List<Gato>(); 
+            foreach(var line in allLines)
             {
-                var gato = GatoParse.CreateFromLine(pathLine);
+                var gato = GatoParse.CreateFromLine(line);
                 if(gato != null)
                     listaGato.Add(gato);
                 continue;
