@@ -15,6 +15,16 @@ namespace AnimaisAPI.Models
             ListCachorro listaCachorro = new ListCachorro();
             listaAnimais.gatos = listaGato.ListaGato();
             listaAnimais.cachorros = listaCachorro.ListaCachorro();
+            
+            foreach (var gato in listaAnimais.gatos)
+            {
+                BancoDeDados.AdicionarParametros(gato.Especie, gato.Raca, gato.Idade);
+            }
+            foreach (var cachorro in listaAnimais.cachorros)
+            {
+                BancoDeDados.AdicionarParametros(cachorro.Especie, cachorro.Raca, cachorro.Idade);
+            }
+
             return listaAnimais;
         }
     }
