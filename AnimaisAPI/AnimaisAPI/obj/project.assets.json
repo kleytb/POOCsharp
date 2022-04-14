@@ -651,19 +651,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kley\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
       "projectName": "AnimaisAPI",
-      "projectPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
-      "packagesPath": "C:\\Users\\Kley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kley\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\AnimaisAPI.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\POOCsharp\\AnimaisAPI\\AnimaisAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

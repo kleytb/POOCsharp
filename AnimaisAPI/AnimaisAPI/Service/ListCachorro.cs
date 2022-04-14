@@ -5,18 +5,23 @@ namespace AnimaisAPI.Service
 {
     public class ListCachorro : IListCachorro
     {
-        public  List<Cachorro> ListaCachorro()
+        public List<Cachorro> ListaCachorro()
         {
-            var allLines = TxtSearch.Search();         
-            var listaCachorro = new List<Cachorro>(); 
+            var allLines = Search.txtSearch();
+            var listaCachorro = new List<Cachorro>();
             foreach (var line in allLines)
             {
-               var cachorro = CachorroParse.CreateFromLine(line);
-               if(cachorro != null)
+                var cachorro = CachorroParse.CreateFromLine(line);
+                if (cachorro != null)
                     listaCachorro.Add(cachorro);
-               continue;
+                continue;
             }
-            return listaCachorro.ToList();
+
+            foreach (var cachorro in listaCachorro)
+            {
+                BancoDeDados.AdicionarParametros(cachorro.Especie, cachorro.Raca, cachorro.Idade);
+            }
+            return listaCachorro;
         }
     }
 }

@@ -16,13 +16,16 @@ namespace AnimaisAPI.Controllers
         {
             ListAnimals retornoAnimais = new ListAnimals();
             return retornoAnimais.ListaAnimais();
-        }   
-        [HttpGet("Gatos", Name ="Gatos")]
-        public List<Gato> Gatos ()
+        }
+
+        [HttpGet("Gatos", Name = "Gatos")]
+        public List<Gato> Gatos()
         {
             ListGato listaGato = new ListGato();
+
             return listaGato.ListaGato().ToList();
         }
+
         [HttpGet("Cachorros", Name = "Cachorro")]
         public List<Cachorro> Cachorros()
         {
